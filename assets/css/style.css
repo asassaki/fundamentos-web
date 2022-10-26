@@ -1,11 +1,10 @@
-/*Style index.html*/
-/*Style contato.html*/
+/*Style general*/
 
 .center {
     text-align: center;
 }
 
-p{
+p {
     font-size: 16px;
 }
 
@@ -19,7 +18,6 @@ p{
 #menu li {
     display: inline;
     padding: 15px;
-    text-decoration: none;
 }
 
 #menu li a {
@@ -31,29 +29,12 @@ p{
     color: grey;
 }
 
-.p-30 {
-    padding: 30px;
-}
-
-.br-50 {
-    border-radius: 50%;
-}
-
-.tm {
-    width: 50px;
-    height: 50px;
-}
-
 .mb-60 {
     margin-bottom: 60px;
 }
 
 .justify {
     text-align: justify;
-}
-
-.ml-50 {
-    margin-left: 50px;
 }
 
 .container2 {
@@ -63,8 +44,37 @@ p{
     align-items: center;
 }
 
+.font {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.ct {
+    color: darkslategray;
+}
+
+/*Style index.html*/
+
+.p-30 {
+    padding: 30px;
+}
+
+.br-50 {
+    border-radius: 50%;
+}
+
 .bg-1 {
     background-color: #ea8685;
+}
+
+/*Style contato.html*/
+
+.tm {
+    width: 50px;
+    height: 50px;
+}
+
+.ml-50 {
+    margin-left: 50px;
 }
 
 .bg-2 {
